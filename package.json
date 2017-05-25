@@ -1,0 +1,28 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "website about cars",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafprzygoda/jslearn.git"
+  },
+  "keywords": [
+    "car",
+    "js",
+    "learn"
+  ],
+  "author": "Rafal Przygoda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafprzygoda/jslearn/issues"
+  },
+  "homepage": "https://github.com/rafprzygoda/jslearn#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0"
+  }
+}
