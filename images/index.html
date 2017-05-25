@@ -1,12 +1,70 @@
 <!DOCTYPE html>
-<html lang>
+<html lang="pl">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Pierwszy kontakt z JS</title>
-        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link rel="stylesheet" href="/css/style.css" type="text/css">
     </head>
     <body>
-        <h1>O tym jak przyjemnie programuje się w JS</h1>
+        <h1 class="text-center">Moje ulubione auta</h1>
+        <section class="table text-center table-responsive">
+            <h2>Auta, które chciałbym mieć</h2>
+            <p>Oto lista aut, które chciałbym w przyszłości kupić już jako programista Front-End</p>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Marka</th>
+                        <th>Model</th>
+                        <th>KM</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ford</td>
+                        <td>Mustang Shelby GT</td>
+                        <td>300</td>
+                    </tr>
+                    <tr>
+                        <td>Ferrari</td>
+                        <td>360 Modena</td>
+                        <td>360</td>
+                    </tr>
+                    <tr>
+                        <td>Nissan</td>
+                        <td>GT-R</td>
+                        <td>550</td>
+                    </tr>
+                    <tr>
+                        <td>BMW</td>
+                        <td>E630</td>
+                        <td>350</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="gallery">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-s-6"><img src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/280h/K2SW4CJR55.jpg" alt="ford" class="img-responsive center-block">
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-s-6"><img src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/280h/GZK9HW13D3.jpg" alt="ferrari" class="img-responsive center-block">
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-s-6"><img src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/280h/06M0607J5D.jpg" alt="bmw" class="img-responsive center-block">
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-s-6"><img src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/280h/I61MEN5LDV.jpg" alt="nissan" class="img-responsive center-block">
+                    </div>
+                </div>
+            </div>  
+        </section>
+        <footer>
+            <p class="text-center">Rafał Przygoda, 2017</p>
+        </footer>
         <script type="text/javascript" src="js/scripts.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js">
+        </script> 
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous">
+        </script>
     </body>
 </html>
