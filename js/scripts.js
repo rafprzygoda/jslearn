@@ -1,15 +1,15 @@
-// scripts.js czyli pierwszy skrypt w JS
+// scripts.js - first script in JavaScript
 
-//Jest to zadanie 8.4 - dodawanie komentarzy a to jest komentarz linowy
+//This is exercise 8.4 - adding a comment and this is line comment
 
 var name = prompt("Wpisz swoje imię");
 // alert("Siema, " + name);
 console.log("Siema, " + name);
 
-/* To natomiast jest komentarz blokowy
- bo można tu sobie wpisywać
- dużo
- fajnego
- kodu
- w postaci wielu linii 
+/* This is block comment
+because here we can write
+many 
+cool 
+code 
+as many lines
  */
